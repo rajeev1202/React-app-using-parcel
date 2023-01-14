@@ -1,0 +1,30 @@
+{
+  "name": "react-app-parcel",
+  "version": "1.0.0",
+  "description": "React app using parcel and babel",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "react",
+    "parcel",
+    "babel"
+  ],
+  "author": "Rajeev Ranjan",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.2",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist":[
+    "default"
+  ]
+}
