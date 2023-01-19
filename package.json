@@ -2,9 +2,10 @@
   "name": "react-app-parcel",
   "version": "1.0.0",
   "description": "React app using parcel and babel",
-  "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "keywords": [
     "html",
@@ -17,6 +18,8 @@
   "author": "Rajeev Ranjan",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "parcel": "^2.8.2",
     "process": "^0.11.10"
   },
@@ -24,7 +27,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "browserslist":[
-    "default"
+  "browserslist": [
+    "defaults and supports es6-module",
+    "maintained node versions"
   ]
 }
